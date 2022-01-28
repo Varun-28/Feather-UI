@@ -1,0 +1,85 @@
+/* global css */
+:root{
+    --color-white : #fff;
+    --color-black : #000;
+    --primary-color : #FF6701;
+    --secondary-color : #FFC288;
+    --hover-color: #FCECDD;
+}
+main{
+    height: 100vh;
+}
+/* --------------- home page css ---------------  */
+
+/* header and navbar */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: var(--color-white);
+    width: 100%;
+}
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav h2{
+    font-family: 'Satisfy', cursive;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+nav img{
+    width: 5rem;
+    height: auto;
+}
+
+/* hero section */
+#home{
+    background-color: var(--secondary-color);
+    background-image: linear-gradient(315deg, var(--hover-color) 0%, var(--primary-color) 46%, var(--secondary-color) 100%);
+
+}
+.hero-section{
+    position: relative;
+    width: 80vw;
+    margin: auto;
+    padding: 5rem 2rem;
+    top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: var(--color-white);
+    box-shadow: 0 0 0.5rem var(--color-white);
+}
+.logo img{
+    width: 12rem;
+}
+.sub-heading{
+    margin: 2rem auto;
+    font-weight: 600;
+}
+.btn{
+    border: solid 2px var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: transparent;
+    margin: 0.5rem;
+    transition: 0.2s;
+}
+#btn-primary{
+    background-color: var(--primary-color);
+    color: var(--color-white);
+}
+#btn-secondary{
+    color: var(--primary-color);
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
