@@ -43,7 +43,8 @@
     padding-bottom: 1rem;
 }
 
-.content h4, .content h5 {
+.content h4,
+.content h5 {
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
@@ -56,19 +57,23 @@
 }
 
 .code-img {
-    width: 80%;
-    height: auto;
+    width: 100%;
     margin: 2rem auto;
+    border: none;
 }
 
-.horizontal-line2{
+#docs1 {
+    height: 20rem;
+}
+
+.horizontal-line2 {
     display: block;
     border-bottom: solid 1px var(--secondary-color);
     width: 100%;
     margin: 2rem auto;
 }
 
-.wrapper{
+.wrapper {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
