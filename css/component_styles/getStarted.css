@@ -19,9 +19,9 @@
 }
 
 .drawer ul li {
-    padding: 0.5rem;
+    padding: 5px;
     font-weight: bold;
-    border-radius: 0.5rem;
+    border-radius: 5px;
 }
 
 .active,
@@ -40,6 +40,7 @@
 .content {
     width: 90%;
     margin: 1rem auto;
+    padding-bottom: 1rem;
 }
 
 .content h4, .content h5 {
@@ -50,8 +51,8 @@
 .code {
     color: var(--primary-color);
     background-color: var(--hover-color);
-    padding: 0.2rem;
-    border-radius: 0.2rem;
+    padding: 2px;
+    border-radius: 2px;
 }
 
 .code-img {
@@ -62,9 +63,8 @@
 
 .horizontal-line2{
     display: block;
-    border-bottom: solid 0.1rem var(--secondary-color);
+    border-bottom: solid 1px var(--secondary-color);
     width: 100%;
-    padding: 0 !important;
     margin: 2rem auto;
 }
 
@@ -75,7 +75,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--hover-color);
-    border-radius: 0.5rem;
+    border-radius: 5px;
     margin: 1rem 0;
     padding: 2rem 1rem;
 }
