@@ -8,26 +8,27 @@ img.avatar {
     margin: auto 1rem;
 }
 
-#avatar1{
+.avatar-profile {
     min-height: 10rem;
 }
 
 /* sizes avtar */
-img.md{
+img.md {
     width: 5rem;
     height: 5rem;
 }
 
-img.lg{
+img.lg {
     width: 7rem;
     height: 7rem;
 }
 
 /* sizes avtar */
-img.square{
+img.square {
     border-radius: 5px;
 }
 
-#avatar2, #avatar3{
+.avatar-sizes,
+.avatar-square {
     min-height: 15rem;
 }
