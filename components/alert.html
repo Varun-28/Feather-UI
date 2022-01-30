@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feather UI</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logo.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/base_styles/reset.css">
+    <link rel="stylesheet" href="../css/base_styles/home.css">
+    <link rel="stylesheet" href="../css/component_styles/getStarted.css">
+    <link rel="stylesheet" href="../css/base_styles/media.css">
+
+    <link rel="stylesheet" href="../css/component_styles/alert.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <img src="../assets/logo.png" alt="logo">
+                <h2>Feather UI</h2>
+            </a>
+        </nav>
+    </header>
+    <main id="components">
+        <section class="drawer">
+            <ul>
+                <a href="./getStarted.html">
+                    <li>Docs</li>
+                </a>
+                <li class="horizontal-line"><span></span></li>
+                <a href="./avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="./alert.html">
+                    <li class="active">Alert</li>
+                </a>
+                <a href="./badge.html">
+                    <li>Badge</li>
+                </a>
+                <a href="./button.html">
+                    <li>Button</li>
+                </a>
+                <a href="./card.html">
+                    <li>Card</li>
+                </a>
+                <a href="./image.html">
+                    <li>Image</li>
+                </a>
+                <a href="./input.html">
+                    <li>Input</li>
+                </a>
+            </ul>
+        </section>
+        <section class="content">
+            <h4>Alert</h4>
+            <p>An alert displays a short, important message in a way that attracts the user's attention without
+                interrupting the user's task. </p>
+
+            <span class="horizontal-line2"></span>
+            <!-- simple alert -->
+            <div class="component-container">
+                <h5>Simple Alert</h5>
+                <p>Simple Alerts can be created using <span class="code">alert</span> class, followed by the <span
+                        class="code">variant</span> name.</p>
+                <div class="wrapper alert-wrapper">
+                    <div class="alert primary">
+                        <strong>Primary!</strong> Panda is going live on August 30th. Get ready!
+                    </div>
+
+                    <div class="alert error">
+                        <strong>Error!</strong> This is an Error Alert - Check it now!
+                    </div>
+
+                    <div class="alert success">
+                        <strong>Success!</strong> This is a Success Alert - Check it now!
+                    </div>
+
+                    <div class="alert warning">
+                        <strong>Warning!</strong> This is a Warning Alert - Check it now!
+                    </div>
+                </div>
+                <iframe title="alert1" class="code-img alert-simple"
+                    src="https://carbon.now.sh/embed/cHxZcqq1cDr1gLkgUC7B" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- outline alert -->
+            <div class="component-container">
+                <h5>Outline Alert</h5>
+                <p>Outline alerts are created by using <span class="code">alert</span> class, followed by <span
+                        class="code">outline-variant</span>.</p>
+                <div class="wrapper alert-wrapper">
+                    <div class="alert outline-primary">
+                        <strong>Primary!</strong> Panda is going live on August 30th. Get ready!
+                    </div>
+
+                    <div class="alert outline-error">
+                        <strong>Error!</strong> This is an Error Alert - Check it now!
+                    </div>
+
+                    <div class="alert outline-success">
+                        <strong>Success!</strong> This is a Success Alert - Check it now!
+                    </div>
+
+                    <div class="alert outline-warning">
+                        <strong>Warning!</strong> This is a Warning Alert - Check it now!
+                    </div>
+                </div>
+                <iframe title="alert2" class="code-img alert-outline"
+                    src="https://carbon.now.sh/embed/35RZRmx0ZAe8J4KbjGuS"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </div>
+
+            <span class="horizontal-line"></span>
+            <div class="lower-navigation">
+                <span><a href="./avatar.html">&lt; Avatar</a></span>
+                <span><a href="./badge.html">Badge &gt;</a></span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

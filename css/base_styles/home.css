@@ -5,6 +5,14 @@
     --primary-color : #FF6701;
     --secondary-color : #FFC288;
     --hover-color: #FCECDD;
+    --color-success: #38A169;
+    --color-warning: #DD6B20;
+    --color-error: #E53E3E;
+    --color-info: #4C95D6;
+    --color-success-bg: #C6F6D5;
+    --color-warning-bg: #FEEBC8;
+    --color-error-bg: #FED7D7;
+    --color-info-bg: #BEE3F8;
 }
 main{
     height: 100vh;
