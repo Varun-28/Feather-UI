@@ -1,17 +1,6 @@
 /* -------- alert css -------- */
-:root {
-    --color-success: #38A169;
-    --color-warning: #DD6B20;
-    --color-error: #E53E3E;
-    --color-info: #4C95D6;
-    --color-success-bg: #C6F6D5;
-    --color-warning-bg: #FEEBC8;
-    --color-error-bg: #FED7D7;
-    --color-info-bg: #BEE3F8;
-}
 
 .alert {
-    font-family: Arial, Helvetica, sans-serif;
     width: 30rem;
     margin: 5px auto;
     padding: 1rem;
@@ -58,7 +47,7 @@
     color: var(--color-warning);
 }
 
-#alert1,
-#alert2 {
+.alert-simple,
+.alert-outline {
     min-height: 25rem;
 }
