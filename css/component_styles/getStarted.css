@@ -58,8 +58,9 @@
 
 .code-img {
     width: 100%;
-    margin: 2rem 0;
+    margin: 2rem auto;
     border: none;
+    background-color: var(--secondary-color);
 }
 
 #docs1 {
@@ -74,7 +75,7 @@
 }
 
 .wrapper {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
