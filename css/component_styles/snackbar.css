@@ -1,0 +1,30 @@
+.snackbar {
+    background-color: var(--snackbar-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 60%;
+    margin: auto;
+    box-shadow: var(--snackbar-shadow);
+}
+
+.snackbar-text {
+    margin-right: auto;
+    color: var(--bg-color);
+}
+
+.retry {
+    color: var(--primary-color);
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.retry:hover {
+    cursor: pointer;
+}
+
+.snackbar-docs {
+    min-height: 15rem;
+}
