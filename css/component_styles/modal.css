@@ -1,0 +1,67 @@
+/* modal css */
+
+.modal {
+    background-color: var(--bg-color);
+    border-radius: var(--border-5);
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.modal>* {
+    padding: 5px 1rem;
+}
+
+.hr-line-gray {
+    display: block;
+    width: 100%;
+    border-top: solid 1px var(--color-dnd);
+}
+
+h5.modal-title {
+    color: var(--text-color);
+}
+
+.modal-text {
+    font-size: 1.2rem;
+}
+
+.btn-group {
+    align-self: flex-end;
+}
+
+/* simple modal */
+.simple-modal-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-transparent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 5px auto;
+    padding: 1rem;
+}
+
+.btn-transparent i {
+    font-size: 2rem;
+    color: var(--color-dnd);
+    margin: auto 1rem;
+}
+
+/* confirmation modal */
+.confirmation-modal-items {
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    overflow-y: scroll;
+}
+
+/* docs */
+.alert-modal-docs,
+.simple-modal-docs,
+.confirmation-modal-docs {
+    min-height: 20rem;
+}
