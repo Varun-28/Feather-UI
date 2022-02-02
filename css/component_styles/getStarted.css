@@ -14,7 +14,7 @@
     overflow: auto;
 }
 
-::-webkit-scrollbar {
+.drawer ul::-webkit-scrollbar {
     display: none;
 }
 

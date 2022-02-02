@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feather UI</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logo.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/base_styles/reset.css">
+    <link rel="stylesheet" href="../css/base_styles/home.css">
+    <link rel="stylesheet" href="../css/component_styles/getStarted.css">
+    <link rel="stylesheet" href="../css/base_styles/media.css">
+
+    <link rel="stylesheet" href="../css/component_styles/card.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <img src="../assets/logo.png" alt="logo">
+                <h2>Feather UI</h2>
+            </a>
+        </nav>
+    </header>
+    <main id="components">
+        <section class="drawer">
+            <ul>
+                <a href="./getStarted.html">
+                    <li>Docs</li>
+                </a>
+                <li class="horizontal-line"><span></span></li>
+                <a href="./avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="./alert.html">
+                    <li>Alert</li>
+                </a>
+                <a href="./badge.html">
+                    <li>Badge</li>
+                </a>
+                <a href="./button.html">
+                    <li>Button</li>
+                </a>
+                <a href="./card.html">
+                    <li class="active">Card</li>
+                </a>
+                <a href="./image.html">
+                    <li>Image</li>
+                </a>
+                <a href="./input.html">
+                    <li>Input</li>
+                </a>
+                <a href="./textUtility.html">
+                    <li>Typography</li>
+                </a>
+                <a href="./modal.html">
+                    <li>Modal</li>
+                </a>
+                <a href="./snackbar.html">
+                    <li>Snackbar</li>
+                </a>
+            </ul>
+        </section>
+        <section class="content">
+            <h4>Card</h4>
+            <p> Cards are surfaces that display content and actions on a single topic.
+
+                They should be easy to scan for relevant and actionable information. Elements, like text and images,
+                should be placed on them in a way that clearly indicates hierarchy.
+            </p>
+
+            <span class="horizontal-line2"></span>
+            <!-- card with badge -->
+            <div class="component-container card-container">
+                <h5>Card with badge</h5>
+                <p>Card with badge is used to show specific information to the user like showing new arrival of product
+                    or sale on particular product.</p>
+                <div class="wrapper">
+                    <div class="card card-vertical badged-card">
+                        <div class="card-head">
+                            <div class="card-img">
+                                <img src="../assets/product.jpeg" alt="card image">
+                            </div>
+                            <div class="card-texts">
+                                <h6 class="card-title">Moda Rapido <span></span></h6>
+                                <p class="card-subTitle">Wollen Denim Jacket</p>
+                                <p class="card-text"><span class="price-now">Rs. 1499</span><span
+                                        class="price-before">Rs. 1999</span><span class="discount">(25% OFF)</span> </p>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="card-btn-primary">Add To Cart</button>
+                            <button class="card-btn-icon"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-badge">Sale</div>
+                        <div class="card-rating">4.5 <i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+                <iframe title="badge-card" class="code-img badge-card-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2520badged-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-head%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fproduct.jpeg%2522%2520alt%253D%2522card%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-texts%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EModa%2520Rapido%2520%253Cspan%253E%253C%252Fspan%253E%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subTitle%2522%253EWollen%2520Denim%2520Jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%253Cspan%2520class%253D%2522price-now%2522%253ERs.%25201499%253C%252Fspan%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522price-before%2522%253ERs.%25201999%253C%252Fspan%253E%253Cspan%2520class%253D%2522discount%2522%253E%2825%2525%2520OFF%29%253C%252Fspan%253E%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ESale%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating%2522%253E4.5%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- Card with dismiss -->
+            <div class="component-container card-container">
+                <h5>Card with dismiss</h5>
+                <p>These cards are used to show information to the user of less importance that can be dismissed by a
+                    button.</p>
+                <div class="wrapper">
+                    <div class="card card-vertical dismiss-card">
+                        <div class="card-head">
+                            <div class="card-img">
+                                <img src="https://picsum.photos//id/1005/200" alt="card image">
+                            </div>
+                            <div class="card-texts">
+                                <h6 class="card-title">John bauer<span></span></h6>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="card-btn-primary">Accept Friend Request</button>
+                        </div>
+                        <button class="card-exit-btn"><i class="fas fa-times"></i></button>
+                    </div>
+                </div>
+                <iframe title="dismiss-card" class="code-img dismiss-card-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2520dismiss-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-head%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F%252Fid%252F1005%252F200%2522%2520alt%253D%2522card%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-texts%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EJohn%2520bauer%253Cspan%253E%253C%252Fspan%253E%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253EAccept%2520Friend%2520Request%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-exit-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- card with text overlay -->
+            <div class="component-container card-container">
+                <h5>Card with text overlay</h5>
+                <p>Cards having text over the card, usually over the image.</p>
+                <div class="wrapper">
+                    <div class="card card-vertical badged-card">
+                        <div class="card-head">
+                            <div class="card-img">
+                                <img src="../assets/product.jpeg" alt="card image">
+                            </div>
+                            <div class="card-texts">
+                                <h6 class="card-title">Moda Rapido <span></span></h6>
+                                <p class="card-subTitle">Wollen Denim Jacket</p>
+                                <p class="card-text"><span class="price-now">Rs. 1499</span><span
+                                        class="price-before">Rs. 1999</span><span class="discount">(25% OFF)</span> </p>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="card-btn-primary">Add To Cart</button>
+                            <button class="card-btn-icon"><i class="far fa-heart"></i></button>
+                        </div>
+                        <div class="card-overlay">OUT OF STOCK</div>
+                        <div class="card-rating">4.5 <i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+                <iframe title="overlay-card" class="code-img overlay-card-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2520badged-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-head%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fproduct.jpeg%2522%2520alt%253D%2522card%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-texts%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EModa%2520Rapido%2520%253Cspan%253E%253C%252Fspan%253E%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subTitle%2522%253EWollen%2520Denim%2520Jacket%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%253Cspan%2520class%253D%2522price-now%2522%253ERs.%25201499%253C%252Fspan%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522price-before%2522%253ERs.%25201999%253C%252Fspan%253E%253Cspan%2520class%253D%2522discount%2522%253E%2825%2525%2520OFF%29%253C%252Fspan%253E%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253EOUT%2520OF%2520STOCK%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating%2522%253E4.5%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- text only card -->
+            <div class="component-container card-container">
+                <h5>Text only card</h5>
+                <p>Card having text and no visual info like image.</p>
+                <div class="wrapper">
+                    <div class="card card-text-only">
+                        <div class="card-head">
+                            <div class="card-texts">
+                                <h6 class="card-title">Our Changing Planet</h6>
+                                <p class="card-subTitle">by Kurt Wagner</p>
+                                <p class="card-text">Visit ten places on our planet that are undergoing the biggest
+                                    changes today.</p>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="card-btn-primary">Read</button>
+                            <button class="card-btn-primary">Bookmark</button>
+                            <button class="card-btn-icon"><i class="far fa-heart"></i></button>
+                            <button class="card-btn-icon"><i class="fas fa-share-alt"></i></button>
+                            <button class="card-btn-icon"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <iframe title="text-card" class="code-img text-card-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-text-only%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-head%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-texts%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EOur%2520Changing%2520Planet%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subTitle%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- Vertical/Horizontal Card -->
+            <div class="component-container card-container">
+                <h5>Vertical/Horizontal Card</h5>
+                <p>Cards referring to the orientation of card's elements.</p>
+                <div class="wrapper">
+                    <!-- horizontal card -->
+                    <div class="card card-horizontal">
+                        <div class="card-head">
+                            <div class="card-img">
+                                <img src="https://picsum.photos/200" alt="card image">
+                            </div>
+                            <div class="card-texts">
+                                <h6 class="card-title">Our Changing Planet</h6>
+                                <p class="card-subTitle">by Kurt Wagner</p>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="card-btn-primary">Read</button>
+                            <button class="card-btn-primary">Bookmark</button>
+                            <button class="card-btn-icon"><i class="far fa-heart"></i></button>
+                            <button class="card-btn-icon"><i class="fas fa-share-alt"></i></button>
+                            <button class="card-btn-icon"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- vertical card -->
+                    <div class="card card-vertical">
+                        <div class="card-head">
+                            <div class="card-img">
+                                <img src="https://picsum.photos/200" alt="card image">
+                            </div>
+                            <div class="card-texts">
+                                <h6 class="card-title">Our Changing Planet</h6>
+                                <p class="card-subTitle">by Kurt Wagner</p>
+                                <p class="card-text">Visit ten places on our planet that are undergoing the biggest
+                                    changes today.</p>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="card-btn-primary">Read</button>
+                            <button class="card-btn-primary">Bookmark</button>
+                            <button class="card-btn-icon"><i class="far fa-heart"></i></button>
+                            <button class="card-btn-icon"><i class="fas fa-share-alt"></i></button>
+                            <button class="card-btn-icon"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                <iframe title="horizontal-card" class="code-img horizontal-card-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520horizontal%2520card%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-head%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520alt%253D%2522card%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-texts%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EOur%2520Changing%2520Planet%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subTitle%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <iframe title="vertical-card" class="code-img vertical-card-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520vertical%2520card%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-head%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520alt%253D%2522card%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-texts%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EOur%2520Changing%2520Planet%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subTitle%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- card with shadow -->
+            <div class="component-container card-container">
+                <h5>Card with Shadow</h5>
+                <p>Cards having shadow which is used to have a floating effect.</p>
+                <div class="wrapper">
+                    <div class="card card-text-only card-shadow">
+                        <div class="card-head">
+                            <div class="card-texts">
+                                <h6 class="card-title">Our Changing Planet</h6>
+                                <p class="card-subTitle">by Kurt Wagner</p>
+                                <p class="card-text">Visit ten places on our planet that are undergoing the biggest
+                                    changes today.</p>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="card-btn-primary">Read</button>
+                            <button class="card-btn-primary">Bookmark</button>
+                            <button class="card-btn-icon"><i class="far fa-heart"></i></button>
+                            <button class="card-btn-icon"><i class="fas fa-share-alt"></i></button>
+                            <button class="card-btn-icon"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <iframe title="shadow-card" class="code-img shadow-card-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-text-only%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-head%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-texts%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522card-title%2522%253EOur%2520Changing%2520Planet%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subTitle%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-primary%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line"></span>
+            <div class="lower-navigation">
+                <span><a href="./button.html">&lt; Button</a></span>
+                <span><a href="./image.html">Image &gt;</a></span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

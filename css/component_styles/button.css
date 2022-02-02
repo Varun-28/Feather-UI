@@ -30,6 +30,33 @@
     background-color: var(--color-info);
 }
 
+.btn-outline{
+    background-color: var(--bg-color);
+    border: solid 2px var(--color-info);
+    color: var(--color-info);
+}
+
+.btn-transparent{
+    color: var(--text-color);
+}
+
+.btn-transparent:hover{
+    background-color: var(--color-hover-gray);
+    transform: scale(1);
+}
+
+.btn-shadow{
+    background-color: var(--text-color);
+    position: relative;
+    transition: ease-in-out;
+}
+
+.btn-shadow:hover{
+    bottom: 5px;
+    right: 5px;
+    transform: scale(1);
+    box-shadow: 4px 4px 1px 2px var(--color-dnd);
+}
 /* link button */
 .btn-link {
     background-color: var(--color-link);
