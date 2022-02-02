@@ -138,7 +138,7 @@
     border-bottom-left-radius: inherit;
 }
 
-.card-buttons button {
+.card-buttons > *{
     font-size: 1rem;
     background-color: transparent;
     border: none;
@@ -186,7 +186,7 @@
 
 /* card with shadow */
 .card-shadow {
-    box-shadow: 8px 8px 8px 0px var(--color-dnd);
+    box-shadow: var(--card-shadow);
 }
 
 /* card docs */
