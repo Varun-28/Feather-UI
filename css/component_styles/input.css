@@ -6,7 +6,7 @@
 }
 
 .input-group p {
-    font-size: 12px;
+    font-size: 1rem;
     color: var(--color-error);
 }
 
