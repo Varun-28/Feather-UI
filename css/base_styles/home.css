@@ -1,5 +1,7 @@
 /* global css */
 :root {
+
+    /* color */
     --bg-color: #fff;
     --text-color: #000;
     --primary-color: #FF6701;
@@ -15,6 +17,16 @@
     --color-info-bg: #BEE3F8;
     --color-dnd: #808080;
     --color-link: #058CE0;
+    --snackbar-color: rgba(0, 0, 0, .8);
+
+    /* box shadow */
+    --snackbar-shadow: 0 0 5px var(--text-color);
+    --card-shadow: 8px 8px 8px 0px var(--color-dnd);
+
+    /* border radius */
+    --border-2: 2px;
+    --border-5: 5px;
+    --border-round: 50%;
 }
 
 main {
@@ -28,7 +40,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
     background-color: var(--hover-color);
     width: 100%;
     border-bottom: solid 0.1rem var(--primary-color);
