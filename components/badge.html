@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feather UI</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logo.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/base_styles/reset.css">
+    <link rel="stylesheet" href="../css/base_styles/home.css">
+    <link rel="stylesheet" href="../css/component_styles/getStarted.css">
+    <link rel="stylesheet" href="../css/base_styles/media.css">
+
+    <link rel="stylesheet" href="../css/component_styles/avatar.css">
+    <link rel="stylesheet" href="../css/component_styles/badge.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <img src="../assets/logo.png" alt="logo">
+                <h2>Feather UI</h2>
+            </a>
+        </nav>
+    </header>
+    <main id="components">
+        <section class="drawer">
+            <ul>
+                <a href="./getStarted.html">
+                    <li>Docs</li>
+                </a>
+                <li class="horizontal-line"><span></span></li>
+                <a href="./avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="./alert.html">
+                    <li>Alert</li>
+                </a>
+                <a href="./badge.html">
+                    <li class="active">Badge</li>
+                </a>
+                <a href="./button.html">
+                    <li>Button</li>
+                </a>
+                <a href="./card.html">
+                    <li>Card</li>
+                </a>
+                <a href="./image.html">
+                    <li>Image</li>
+                </a>
+                <a href="./input.html">
+                    <li>Input</li>
+                </a>
+                <a href="./textUtility.html">
+                    <li>Text Utilities</li>
+                </a>
+                <a href="./modal.html">
+                    <li>Modal</li>
+                </a>
+                <a href="./snackbar.html">
+                    <li>Snackbar</li>
+                </a>
+            </ul>
+        </section>
+        <section class="content">
+            <h4>Badge</h4>
+            <p>Badges are small circles, positioned either at top-right or bottom-right of the parent component. Badge
+                can be used to display numbers, online / offline status, depending on where they are used.</p>
+
+            <span class="horizontal-line2"></span>
+            <!-- profile badge -->
+            <div class="component-container">
+                <h5>Profile badge</h5>
+                <p>Profile Badge is used to show the current status of a user. Use it with class name <span
+                        class="code">badge</span>
+                    along with it's 3 variants : <span class="code">online | offline | dnd</span> inside the <span
+                        class="code">badge-container</span> class.</p>
+                <div class="wrapper">
+                    <div class="badge-container">
+                        <img class="avatar" src="https://picsum.photos/id/1027/200" alt="profile-avtar">
+                        <span class="online badge"></span>
+                    </div>
+
+                    <div class="badge-container">
+                        <img class="avatar" src="https://picsum.photos/id/177/200" alt="profile-avtar">
+                        <span class="offline badge"></span>
+                    </div>
+
+                    <div class="badge-container">
+                        <img class="avatar" src="https://picsum.photos/id/237/200" alt="profile-avtar">
+                        <span class="dnd badge"></span>
+                    </div>
+                </div>
+                <iframe title="profile-badge" class="code-img profile-badge"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%2520%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1027%252F200%2522%2520alt%253D%2522profile-avtar%2522%253E%250A%2509%253Cspan%2520class%253D%2522online%2520badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%2520%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F177%252F200%2522%2520alt%253D%2522profile-avtar%2522%253E%250A%2509%253Cspan%2520class%253D%2522offline%2520badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%2520%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F237%252F200%2522%2520alt%253D%2522profile-avtar%2522%253E%250A%2509%253Cspan%2520class%253D%2522dnd%2520badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- icon badge -->
+            <div class="component-container">
+                <h5>Icon badge</h5>
+                <p>Icon Badge is used to show the no. of items present in the parent component. Use <span
+                        class="code">badge-container, badge</span> class along with <span class="code">badge-ico</span>
+                    class.</p>
+                <div class="wrapper">
+                    <div class="badge-container">
+                        <i class="shopping-cart fas fa-shopping-cart"><span class="badge badge-ico">10</span></i>
+                    </div>
+                </div>
+                <iframe title="icon-badge" class="code-img icon-badge"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ci%2520class%253D%2522shopping-cart%2520fas%2520fa-shopping-cart%2522%253E%253Cspan%2520class%253D%2522badge%2520badge-ico%2522%253E10%253C%252Fspan%253E%253C%252Fi%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line"></span>
+            <div class="lower-navigation">
+                <span><a href="./alert.html">&lt; Alert</a></span>
+                <span><a href="./button.html">Button &gt;</a></span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feather UI</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logo.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/base_styles/reset.css">
+    <link rel="stylesheet" href="../css/base_styles/home.css">
+    <link rel="stylesheet" href="../css/component_styles/getStarted.css">
+    <link rel="stylesheet" href="../css/base_styles/media.css">
+
+    <link rel="stylesheet" href="../css/component_styles/button.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <img src="../assets/logo.png" alt="logo">
+                <h2>Feather UI</h2>
+            </a>
+        </nav>
+    </header>
+    <main id="components">
+        <section class="drawer">
+            <ul>
+                <a href="./getStarted.html">
+                    <li>Docs</li>
+                </a>
+                <li class="horizontal-line"><span></span></li>
+                <a href="./avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="./alert.html">
+                    <li>Alert</li>
+                </a>
+                <a href="./badge.html">
+                    <li>Badge</li>
+                </a>
+                <a href="./button.html">
+                    <li class="active">Button</li>
+                </a>
+                <a href="./card.html">
+                    <li>Card</li>
+                </a>
+                <a href="./image.html">
+                    <li>Image</li>
+                </a>
+                <a href="./input.html">
+                    <li>Input</li>
+                </a>
+                <a href="./textUtility.html">
+                    <li>Text Utilities</li>
+                </a>
+                <a href="./modal.html">
+                    <li>Modal</li>
+                </a>
+                <a href="./snackbar.html">
+                    <li>Snackbar</li>
+                </a>
+            </ul>
+        </section>
+        <section class="content">
+            <h4>Button</h4>
+            <p>Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and make
+                choices, with a single tap. </p>
+
+            <span class="horizontal-line2"></span>
+            <!-- primary button -->
+            <div class="component-container">
+                <h5>Primary Button</h5>
+                <p>These buttons are for high-emphasis, distinguished by their use of elevation and fill. They contain
+                    actions that are primary to your app. Use common <span class="code">btn</span> class for all the
+                    buttons along with it's variant as <span class="code">'btn-variant'</span>. Primary button comes in
+                    6 variants as : <span class="code">primary | secondary | success | danger | warning | info </span>.
+                </p>
+                <div class="wrapper">
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-secondary">Secondary</button>
+                    <button class="btn btn-success">Success</button>
+                    <button class="btn btn-danger">Danger</button>
+                    <button class="btn btn-warning">Warning</button>
+                    <button class="btn btn-info">Info</button>
+                </div>
+                <iframe title="primary-button" class="code-img primary-button"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%253EInfo%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+            <span class="horizontal-line2"></span>
+            <!-- link button -->
+            <div class="component-container">
+                <h5>Link Button</h5>
+                <p>Want to attach a link action, at a button tap? Use Link Button. Use it with class <span
+                        class="code">btn</span> and <span class="code">btn-link</span>. </p>
+                <div class="wrapper">
+                    <button class="btn btn-link"><i class="fas fa-link"></i>Link</button>
+                </div>
+                <iframe title="link-button" class="code-img link-button"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%253Ci%2520class%253D%2522fas%2520fa-link%2522%253E%253C%252Fi%253ELink%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- icon button -->
+            <div class="component-container">
+                <h5>Icon Button</h5>
+                <p>An icon button is a button that contains an icon and no (visible) accompanying text. Use it with
+                    class <span class="code">btn</span> along with <span class="code">btn-ico, btn-round</span> class.
+                </p>
+                <div class="wrapper">
+                    <button class="btn btn-icon btn-round"><i class="far fa-arrow-alt-circle-right"></i></button>
+                </div>
+                <iframe title="icon-button" class="code-img icon-button"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-round%2522%253E%253Ci%2520class%253D%2522far%2520fa-arrow-alt-circle-right%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- floating action button -->
+            <div class="component-container">
+                <h5>Floating action Button</h5>
+                <p>A floating action button (FAB) performs the primary, or most common, action on a screen. It appears
+                    in front of all screen content, typically as a circular shape with an icon in its center. Use it
+                    with class <span class="code">btn</span> along with <span class="code">btn-fab, btn-round</span>
+                    class.</p>
+                <div class="wrapper">
+                    <button class="btn btn-fab btn-round">+</button>
+                </div>
+                <iframe title="fab-button" class="code-img fab-button"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-fab%2520btn-round%2522%253E%252B%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line"></span>
+            <div class="lower-navigation">
+                <span><a href="./badge.html">&lt; Badge</a></span>
+                <span><a href="./card.html">Card &gt;</a></span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
