@@ -1,0 +1,195 @@
+/* ---------- card ------------ */
+.card {
+    background-color: var(--bg-color);
+    border-radius: 2px;
+    margin: 5px;
+    width: 20rem;
+    position: relative;
+}
+
+/* card with badge */
+.badged-card .card-subTitle {
+    font-size: 1rem;
+}
+
+.card-text span {
+    margin-right: 8px;
+}
+
+.price-now {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.price-before {
+    text-decoration: line-through;
+}
+
+.discount {
+    color: var(--primary-color);
+}
+
+.badged-card .card-btn-primary {
+    background-color: var(--color-info);
+    color: var(--bg-color);
+}
+
+.badged-card .card-btn-primary:hover {
+    transform: scale(1.02);
+    background-color: var(--color-info);
+    box-shadow: 0 0 1rem var(--color-info-bg);
+}
+
+.badged-card .card-btn-icon:hover {
+    background-color: var(--color-info-bg);
+}
+
+.card-badge {
+    background-color: var(--color-error);
+    color: var(--bg-color);
+    padding: 2px 6px;
+    position: absolute;
+    left: -3px;
+    top: 1rem;
+}
+
+.card-rating {
+    position: absolute;
+    left: 1rem;
+    bottom: 12rem;
+    background-color: var(--color-info-bg);
+    padding: 2px;
+}
+
+.card-rating i {
+    color: var(--color-warning);
+}
+
+/* card with dismiss */
+.dismiss-card .card-btn-primary {
+    color: var(--color-error);
+    margin: auto;
+    border: solid 2px var(--color-error);
+}
+
+.dismiss-card .card-btn-primary:hover {
+    background-color: transparent;
+}
+
+.card-exit-btn {
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    padding: 2px 4px;
+    top: 5px;
+    right: 5px;
+}
+
+/* card with text overlay */
+.card-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-dnd);
+    opacity: 0.8;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: inherit;
+}
+
+/* horizontal card */
+.card-head {
+    display: flex;
+}
+
+.card-img img {
+    width: 5rem;
+    height: auto;
+    border-radius: 2px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card-texts,
+.card-buttons {
+    margin: 5px 1rem;
+}
+
+.card-title {
+    color: var(--text-color);
+}
+
+.card-subTitle {
+    color: var(--color-dnd);
+}
+
+.card-buttons {
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+.card-buttons > *{
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 2px;
+}
+
+.card-btn-primary {
+    color: var(--primary-color);
+    padding: 4px;
+}
+
+.card-btn-primary:hover {
+    background-color: var(--hover-color);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.card-btn-icon {
+    color: var(--color-dnd);
+    width: 2rem;
+    height: 2rem;
+}
+
+.card-btn-icon:hover {
+    background-color: var(--hover-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* vertical card */
+.card-text {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: var(--color-dnd);
+}
+
+.card-vertical .card-head {
+    flex-direction: column;
+}
+
+.card-vertical .card-head .card-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* card with shadow */
+.card-shadow {
+    box-shadow: var(--card-shadow);
+}
+
+/* card docs */
+.card-container .code-img {
+    min-height: 25rem;
+}
