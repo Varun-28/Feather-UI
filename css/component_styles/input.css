@@ -1,0 +1,36 @@
+/* ---------- input css -------- */
+
+.input-wrapper,
+.input-group>* {
+    display: block;
+}
+
+.input-group p {
+    font-size: 1rem;
+    color: var(--color-error);
+}
+
+/* simple input */
+.simple-input {
+    padding: 5px;
+    width: 20rem;
+    border: solid 2px var(--text-color);
+    border-radius: 5px;
+}
+
+/* validation input */
+.validation-input {
+    padding: 2px;
+    width: 20rem;
+    border: solid 1px var(--color-error);
+    border-radius: 2px;
+}
+
+/* docs css */
+.simple-textbox {
+    min-height: 15rem;
+}
+
+.validation-textbox {
+    min-height: 25rem;
+}
