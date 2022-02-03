@@ -15,7 +15,7 @@
 .hr-line-gray {
     display: block;
     width: 100%;
-    border-top: solid 1px var(--color-dnd);
+    border-top: solid 1px var(--color-hover-gray);
 }
 
 h5.modal-title {
