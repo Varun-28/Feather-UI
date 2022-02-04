@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Satisfy&display=swap');
+@import url('../base_styles/reset.css');
+@import url('../base_styles/home.css');
+
 #components {
     margin-top: 5rem;
 }
@@ -43,8 +47,8 @@
     padding-bottom: 1rem;
 }
 
-.content h4,
-.content h5 {
+.content-subheading,
+.content-heading {
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
@@ -63,8 +67,8 @@
     background-color: var(--secondary-color);
 }
 
-#docs1 {
-    height: 20rem;
+.docs1 {
+    min-height: 15rem;
 }
 
 .horizontal-line2 {
@@ -72,6 +76,11 @@
     border-bottom: solid 1px var(--secondary-color);
     width: 100%;
     margin: 2rem auto;
+}
+
+ul.examples{
+    margin: 1rem 0;
+    color: var(--color-info);
 }
 
 .wrapper {

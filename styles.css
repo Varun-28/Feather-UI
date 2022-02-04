@@ -1,1 +1,22 @@
-/* This will contain all the css imports and will act as a final stylesheet */
+/* This file contains all the css imports and act as a final stylesheet */
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Satisfy&display=swap');
+
+/* base styles */
+@import url('../base_styles/reset.css');
+@import url('../base_styles/home.css');
+@import url('./getStarted.css');
+@import url('../base_styles/media.css');
+
+/* component styles */
+@import url(./css/component_styles/avatar.css);
+@import url(./css/component_styles/alert.css);
+@import url(./css/component_styles/badge.css);
+@import url(./css/component_styles/button.css);
+@import url(./css/component_styles/card.css);
+@import url(./css/component_styles/image.css);
+@import url(./css/component_styles/input.css);
+@import url(./css/component_styles/textUtility.css);
+@import url(./css/component_styles/modal.css);
+@import url(./css/component_styles/snackbar.css);

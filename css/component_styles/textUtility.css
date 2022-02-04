@@ -1,9 +1,6 @@
+@import url('./components.css');
+
 /* typography css */
-.typography-wrapper h5,
-.typography-wrapper h4 {
-    color: var(--text-color);
-    margin-bottom: 0;
-}
 
 .typography-wrapper {
     flex-direction: column;

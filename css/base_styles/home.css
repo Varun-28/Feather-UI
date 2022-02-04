@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Satisfy&display=swap');
+@import url('../base_styles/reset.css');
+
 /* global css */
 :root {
 
@@ -44,8 +47,8 @@ nav {
     z-index: 2;
     background-color: var(--hover-color);
     width: 100%;
-    border-bottom: solid 0.1rem var(--primary-color);
-    box-shadow: 0 0.1rem 0.3rem var(--secondary-color);
+    border-bottom: solid 1px var(--primary-color);
+    box-shadow: 0 1px 3px var(--secondary-color);
 }
 
 nav a {
@@ -91,20 +94,20 @@ nav img {
 
 .btn {
     border: solid 2px var(--primary-color);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
+    border-radius: 5px;
+    padding: 8px;
     font-weight: bold;
     background-color: transparent;
-    margin: 0.5rem;
+    margin: 5px;
     transition: 0.2s;
 }
 
-#btn-primary {
+.home-btn-primary {
     background-color: var(--primary-color);
     color: var(--bg-color);
 }
 
-#btn-secondary {
+.home-btn-secondary {
     color: var(--primary-color);
 }
 

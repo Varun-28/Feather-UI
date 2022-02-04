@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Satisfy&display=swap');
+
+@import url('../base_styles/reset.css');
+@import url('../base_styles/home.css');
+@import url('./getStarted.css');
+@import url('../base_styles/media.css');

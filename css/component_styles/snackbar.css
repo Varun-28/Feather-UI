@@ -1,3 +1,7 @@
+@import url('./components.css');
+
+/* snackbar css */
+
 .snackbar {
     background-color: var(--snackbar-color);
     border-radius: 5px;
