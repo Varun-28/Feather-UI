@@ -3,7 +3,7 @@
         font-size: 75%;
     }
 
-    nav a {
+    .cl-navbar nav a {
         justify-content: flex-start;
     }
 

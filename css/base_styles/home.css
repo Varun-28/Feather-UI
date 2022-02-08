@@ -33,14 +33,14 @@
     --border-round: 50%;
 }
 
-main {
+.cl-main {
     height: 100vh;
 }
 
 /* --------------- home page css ---------------  */
 
 /* header and navbar */
-nav {
+.cl-navbar nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -51,19 +51,19 @@ nav {
     box-shadow: 0 1px 3px var(--secondary-color);
 }
 
-nav a {
+.cl-navbar nav a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-nav h2 {
+.cl-navbar nav h2 {
     font-family: 'Satisfy', cursive;
     color: var(--primary-color);
     cursor: pointer;
 }
 
-nav img {
+.cl-navbar nav img {
     width: 5rem;
     height: auto;
 }
