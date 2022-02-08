@@ -6,6 +6,7 @@
     width: 30rem;
     margin: 5px auto;
     padding: 1rem;
+    font-weight: 600;
     background-color: var(--bg-color);
     border-radius: 2px;
     border: solid 1px transparent;

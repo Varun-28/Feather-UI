@@ -5,6 +5,7 @@
 
 .badge-container {
     position: relative;
+    width: max-content;
 }
 
 /* profile badge */

@@ -34,7 +34,7 @@
     flex-direction: column;
 }
 
-.btn-transparent {
+.simple-modal-items .btn-transparent {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -43,7 +43,7 @@
     padding: 1rem;
 }
 
-.btn-transparent i {
+.simple-modal-items .btn-transparent i {
     font-size: 2rem;
     color: var(--color-dnd);
     margin: auto 1rem;

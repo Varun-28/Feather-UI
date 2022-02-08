@@ -92,7 +92,7 @@ nav img {
     font-weight: 600;
 }
 
-.btn {
+.home-btn-primary, .home-btn-secondary{
     border: solid 2px var(--primary-color);
     border-radius: 5px;
     padding: 8px;
@@ -111,7 +111,7 @@ nav img {
     color: var(--primary-color);
 }
 
-.btn:hover {
+.home-btn-primary:hover, .home-btn-secondary:hover {
     cursor: pointer;
     transform: scale(1.05);
 }

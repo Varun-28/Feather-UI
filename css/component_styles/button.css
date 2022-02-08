@@ -3,8 +3,19 @@
 /* ---------- button css ------------ */
 
 .btn {
+    font-size: 1.2rem;
     border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    margin: 5px;
     color: var(--bg-color);
+    transition: 0.2s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 /* primary button */
@@ -32,33 +43,35 @@
     background-color: var(--color-info);
 }
 
-.btn-outline{
+.btn-outline {
     background-color: var(--bg-color);
     border: solid 2px var(--color-info);
     color: var(--color-info);
 }
 
-.btn-transparent{
+.btn-transparent {
+    background-color: transparent;
     color: var(--text-color);
 }
 
-.btn-transparent:hover{
+.btn-transparent:hover {
     background-color: var(--color-hover-gray);
     transform: scale(1);
 }
 
-.btn-shadow{
+.btn-shadow {
     background-color: var(--text-color);
     position: relative;
     transition: ease-in-out;
 }
 
-.btn-shadow:hover{
+.btn-shadow:hover {
     bottom: 5px;
     right: 5px;
     transform: scale(1);
     box-shadow: 4px 4px 1px 2px var(--color-dnd);
 }
+
 /* link button */
 .btn-link {
     background-color: var(--color-link);

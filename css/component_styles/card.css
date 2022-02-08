@@ -9,9 +9,16 @@
     position: relative;
 }
 
+
 /* card with badge */
-.badged-card .card-subTitle {
-    font-size: 1rem;
+.badged-card {
+    min-height: 30rem;
+    background-color: var(--bg-color);
+}
+
+.badged-card .card-subTitle,
+.badged-card .card-text {
+    font-size: 1.2rem;
 }
 
 .card-text span {
@@ -106,6 +113,10 @@
 }
 
 /* horizontal card */
+.card-horizontal {
+    width: 24rem;
+}
+
 .card-head {
     display: flex;
 }
@@ -140,8 +151,8 @@
     border-bottom-left-radius: inherit;
 }
 
-.card-buttons > *{
-    font-size: 1rem;
+.card-buttons>* {
+    font-size: 1.2rem;
     background-color: transparent;
     border: none;
     border-radius: 2px;

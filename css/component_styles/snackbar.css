@@ -6,19 +6,22 @@
     background-color: var(--snackbar-color);
     border-radius: 5px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 1rem;
-    width: 60%;
+    width: 32rem;
     margin: auto;
     box-shadow: var(--snackbar-shadow);
 }
 
 .snackbar-text {
+    font-size: 1.2rem;
     margin-right: auto;
     color: var(--bg-color);
 }
 
 .retry {
+    font-size: 1.2rem;
     color: var(--primary-color);
     background-color: transparent;
     border: none;
