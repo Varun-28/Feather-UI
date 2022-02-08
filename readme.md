@@ -9,7 +9,7 @@ A Lightweight Front-end library for easier and faster development of Web Interfa
 
 1. Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS(available at Get Started or Docs page). 
   
-  <img width="617" alt="Screenshot 2022-02-05 141041" src="https://user-images.githubusercontent.com/56184699/152635018-43500bee-4268-42f8-bed7-5bbaec2d82fe.png">
+  <img width="644" alt="getstarted" src="https://user-images.githubusercontent.com/56184699/153012493-7d704e8b-dad9-4623-9111-f38850c4ba9b.png">
 
 
 2. Choose the component you want to use, and copy paste it's code from it's documentation and you are good to go👍.
