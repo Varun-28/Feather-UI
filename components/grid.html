@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="../assets/logo.png">
 
     <!-- css -->
-    <link rel="stylesheet" href="../css/component_styles/rating.css">
+    <link rel="stylesheet" href="../css/component_styles/grid.css">
 
     <!-- font awesome cdn -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -80,17 +80,58 @@
         </section>
         <section class="content">
             <h4 class="content-heading">Grid</h4>
-            <p></p>
+            <p>The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to
+                design web pages without having to use floats and positioning.</p>
 
             <span class="horizontal-line2"></span>
-            <!-- list -->
+            <!-- 2 items grid -->
             <div class="component-container">
-                <h5 class="content-subheading"></h5>
-                <p></p>
-                <div class="wrapper">
-
+                <h5 class="content-subheading">2-Items Grid</h5>
+                <p>A grid containing 2 items which are fully responsive.</p>
+                <div class="wrapper grid-wrapper">
+                    <!-- 50%-50% grid -->
+                    <div class="grid-container item-grid-2 fifty-fifty-grid">
+                        <div class="grid-item">50%</div>
+                        <div class="grid-item">50%</div>
+                    </div>
+                    <!-- 20%-auto grid -->
+                    <div class="grid-container item-grid-2 twenty-auto-grid">
+                        <div class="grid-item">20%</div>
+                        <div class="grid-item">auto</div>
+                    </div>
+                    <!-- auto-20% grid -->
+                    <div class="grid-container item-grid-2 auto-twenty-grid">
+                        <div class="grid-item">auto</div>
+                        <div class="grid-item">20%</div>
+                    </div>
                 </div>
-                <!-- iframe -->
+                <iframe title="grid-2" class="code-img grid-2"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container%2520item-grid-2%2520fifty-fifty-grid%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E50%2525%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E50%2525%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid-container%2520item-grid-2%2520twenty-auto-grid%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E20%2525%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253Eauto%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid-container%2520item-grid-2%2520auto-twenty-grid%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253Eauto%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E20%2525%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- 3 items grid -->
+            <div class="component-container">
+                <h5 class="content-subheading">3-Items Grid</h5>
+                <p>A grid containing 3 items which are fully responsive.</p>
+                <div class="wrapper grid-wrapper">
+                    <div class="grid-container item-grid-3 three-equal-grid">
+                        <div class="grid-item">1/3-fraction</div>
+                        <div class="grid-item">1/3-fraction</div>
+                        <div class="grid-item">1/3-fraction</div>
+                    </div>
+                    <div class="grid-container item-grid-3 three-unequal-grid">
+                        <div class="grid-item">20%</div>
+                        <div class="grid-item">50%</div>
+                        <div class="grid-item">30%</div>
+                    </div>
+                </div>
+                <iframe title="grid-3" class="code-img grid-3"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container%2520item-grid-3%2520three-equal-grid%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E1%252F3-fraction%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E1%252F3-fraction%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E1%252F3-fraction%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-container%2520item-grid-3%2520three-unequal-grid%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E20%2525%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E50%2525%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E30%2525%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
 
             <span class="horizontal-line"></span>
