@@ -80,17 +80,70 @@
         </section>
         <section class="content">
             <h4 class="content-heading">List</h4>
-            <p></p>
+            <p>HTML Lists are used to specify lists of information. All lists may contain one or more list elements.</p>
 
             <span class="horizontal-line2"></span>
             <!-- list -->
             <div class="component-container">
-                <h5 class="content-subheading"></h5>
-                <p></p>
+                <h5 class="content-subheading">Normal Lists (Spaced)</h5>
+                <p>These are the normal list of items either bulleted or numbered.</p>
                 <div class="wrapper">
-
+                    <div class="list-container">
+                        <div class="list unordered-list">
+                            <p>An unordered list:</p>
+                            <ul>
+                                <li>Item</li>
+                                <li>Item</li>
+                                <li>Item</li>
+                            </ul>
+                        </div>
+                        <div class="list ordered-list">
+                            <p>An ordered list:</p>
+                            <ol>
+                                <li>First Item</li>
+                                <li>Second Item</li>
+                                <li>Third Item</li>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
-                <!-- iframe -->
+                <iframe title="normal-list" class="code-img normal-list-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list%2520unordered-list%2522%253E%250A%2520%2520%2520%2520%253Cp%253EAn%2520unordered%2520list%253A%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EItem%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522list%2520ordered-list%2522%253E%250A%2520%2520%2520%2520%253Cp%253EAn%2520ordered%2520list%253A%253C%252Fp%253E%250A%2520%2520%2520%2520%253Col%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EFirst%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ESecond%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EThird%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- list -->
+            <div class="component-container">
+                <h5 class="content-subheading">Notification Lists (Stacked)</h5>
+                <p>These are the list of notification which we usually see in our inbox.</p>
+                <div class="wrapper">
+                    <div>
+
+                        <div class="stacked-list">
+                            <div class="stacked-list-item">
+                                <i class="fas fa-bell"></i>
+                                <div class="stacked-list-text">
+                                    <h4>Notification 1</h4>
+                                    <p>This is the content of notification 1.</p>
+                                </div>
+                            </div>
+                            <div class="stacked-list-item">
+                                <i class="fas fa-bell"></i>
+                                <div class="stacked-list-text">
+                                    <h4>Notification 2</h4>
+                                    <p>This is the content of notification 2.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <iframe title="stacked-list" class="code-img stacked-list-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522stacked-list%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-list-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ENotification%25201%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520the%2520content%2520of%2520notification%25201.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-list-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ENotification%25202%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520the%2520content%2520of%2520notification%25202.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
 
             <span class="horizontal-line"></span>
