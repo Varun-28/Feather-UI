@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="../assets/logo.png">
 
     <!-- css -->
-    <link rel="stylesheet" href="../css/component_styles/rating.css">
+    <link rel="stylesheet" href="../css/component_styles/slider.css">
 
     <!-- font awesome cdn -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -80,17 +80,31 @@
         </section>
         <section class="content">
             <h4 class="content-heading">Slider</h4>
-            <p></p>
+            <p>A range slider is an input field that merchants can use to select a numeric value within a given range
+                (minimum and maximum values).</p>
 
             <span class="horizontal-line2"></span>
-            <!-- list -->
+            <!-- slider -->
             <div class="component-container">
-                <h5 class="content-subheading"></h5>
-                <p></p>
                 <div class="wrapper">
-
+                    <input type="range" list="price-list" min="0" max="2000" step="250" value="1000"
+                        aria-label="price-range" />
+                    <datalist id="price-list">
+                        <option value="0" label='0'></option>
+                        <option value="250"></option>
+                        <option value="500"></option>
+                        <option value="750"></option>
+                        <option value="1000" label='1k'></option>
+                        <option value="1250"></option>
+                        <option value="1500"></option>
+                        <option value="1750"></option>
+                        <option value="2000" label='2k'></option>
+                    </datalist>
                 </div>
-                <!-- iframe -->
+                <iframe title="slider" class="code-img slider-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520list%253D%2522price-list%2522%2520min%253D%25220%2522%2520max%253D%25222000%2522%2520step%253D%2522250%2522%2520value%253D%25221000%2522%2520aria-label%253D%2522price-range%2522%253E%250A%253Cdatalist%2520id%253D%2522price-list%2522%253E%250A%2520%2520%2520%2520%253Coption%2520value%253D%25220%2522%2520label%253D%270%27%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%253Coption%2520value%253D%2522250%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%253Coption%2520value%253D%2522500%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%253Coption%2520value%253D%2522750%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%253Coption%2520value%253D%25221000%2522%2520label%253D%271k%27%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%253Coption%2520value%253D%25221250%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%253Coption%2520value%253D%25221500%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%253Coption%2520value%253D%25221750%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%253Coption%2520value%253D%25222000%2522%2520label%253D%272k%27%253E%253C%252Foption%253E%250A%253C%252Fdatalist%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
 
             <span class="horizontal-line"></span>
