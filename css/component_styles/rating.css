@@ -1,3 +1,41 @@
 @import url('./components.css');
 
 /* -------- rating css -------- */
+.rating-container {
+    direction: rtl;
+}
+
+.rating-container .star {
+    background-color: transparent;
+    color: var(--color-dnd);
+    border: none;
+    cursor: pointer;
+}
+
+.rating-container .star:hover {
+    color: var(--primary-color);
+}
+
+.star1:hover~.star {
+    color: var(--primary-color);
+}
+
+.star2:hover~.star {
+    color: var(--primary-color);
+}
+
+.star3:hover~.star {
+    color: var(--primary-color);
+}
+
+.star4:hover~.star {
+    color: var(--primary-color);
+}
+
+.star5:hover~.star {
+    color: var(--primary-color);
+}
+
+.rating-docs{
+    min-height: 18rem;
+}
