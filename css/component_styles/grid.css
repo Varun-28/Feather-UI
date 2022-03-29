@@ -1,3 +1,52 @@
 @import url('./components.css');
 
 /* -------- grid css -------- */
+
+.grid-container {
+    display: grid;
+    background-color: var(--bg-color);
+    width: 100%;
+}
+
+.grid-item {
+    border: solid 2px var(--color-dnd);
+    padding: 1rem;
+    text-align: center;
+}
+
+.grid-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+/* 2-items grid */
+.fifty-fifty-grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.twenty-auto-grid {
+    grid-template-columns: 20% auto;
+}
+
+.auto-twenty-grid {
+    grid-template-columns: auto 20%;
+}
+
+/* 3-items grid */
+.three-equal-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.three-unequal-grid{
+    grid-template-columns: 20% 50% 30%;
+}
+
+/* docs css */
+.grid-2{
+    min-height: 25rem;
+}
+
+.grid-3{
+    min-height: 20rem;
+}
