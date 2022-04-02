@@ -11,11 +11,11 @@
     align-items: center;
 }
 
-.featherui-navbar h2{
+.featherui-navbar .navbar-brand{
     margin-right: auto;
 }
 
-.featherui-navbar ul{
+.featherui-navbar .nav-links{
     display: flex;
     column-gap: 1.5rem;
 }

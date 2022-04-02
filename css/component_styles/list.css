@@ -12,15 +12,15 @@
 
 /* normal list */
 
-.list ol, .list ul{
+.list .unordered-list, .list .ordered-list{
     padding-left: 40px; 
 }
 
-.unordered-list ul li{
+.unordered-list .list-item{
     list-style: initial;
 }
 
-.ordered-list ol li{
+.ordered-list .list-item{
     list-style: inherit;
 }
 
@@ -37,7 +37,7 @@
     align-items: center;
 }
 
-.stacked-list-item i{
+.stacked-list-item .fa-bell{
     font-size: 2rem;
     margin-right: 1rem;
 }
