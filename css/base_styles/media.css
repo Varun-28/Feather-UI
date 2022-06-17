@@ -19,6 +19,8 @@
 
     .drawer {
         background-color: var(--bg-color);
+        position: static;
+        z-index: 0;
     }
 
     .drawer ul {
@@ -37,6 +39,15 @@
 
     .content {
         width: 80%;
+    }
+
+    .to-top {
+        bottom: 1.6rem;
+        right: 3.2rem;
+    }
+
+    .to-top.active {
+        bottom: 3.2rem;
     }
 }
 
