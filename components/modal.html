@@ -102,6 +102,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="modal-container modal-hidden modal-container-alert">
+                    <div class="modal alert-modal">
+                        <h4 class="modal-title">Dialog header</h4>
+                        <p class="modal-text">Dialog body text</p>
+                        <span class="hr-line-gray"></span>
+                        <div class="btn-group">
+                            <button class="btn btn-outline alert-modal-btn" value="1">Action 1</button>
+                            <button class="btn btn-outline alert-modal-btn" value="1">Action 2</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-info alert-modal-btn">Open Alert Modal</button>
                 <iframe title="alert-modal" class="code-img alert-modal-docs"
                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2520alert-modal%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522modal-title%2522%253EDialog%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-text%2522%253EDialog%2520body%2520text%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522hr-line-gray%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%2520value%253D%25221%2522%253EAction%25201%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%2520value%253D%25221%2522%253EAction%25202%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
@@ -109,7 +121,7 @@
             </div>
 
             <span class="horizontal-line2"></span>
-            <!-- alert modal -->
+            <!-- simple modal -->
             <div class="component-container">
                 <h5 class="content-subheading">Simple Modal</h5>
                 <p>It is most basic form of modal that does not have any additional buttons, it only offers the choices
@@ -129,6 +141,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="modal-container modal-hidden modal-container-simple">
+                    <div class="modal simple-modal">
+                        <h4 class="modal-title">Dialog header</h4>
+                        <span class="hr-line-gray"></span>
+                        <div class="simple-modal-items">
+                            <button class="btn btn-transparent simple-modal-btn" value="2"><i class="fas fa-user-circle"></i> Item
+                                1</button>
+                            <button class="btn btn-transparent simple-modal-btn" value="2"><i class="fas fa-user-circle"></i> Item
+                                2</button>
+                            <button class="btn btn-transparent simple-modal-btn" value="2"><i class="fas fa-user-circle"></i> Item
+                                3</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-info simple-modal-btn">Open Simple Modal</button>
                 <iframe title="simple-modal" class="code-img simple-modal-docs"
                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2520simple-modal%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522modal-title%2522%253EDialog%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522hr-line-gray%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-modal-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-transparent%2522%2520value%253D%25222%2522%253E%253Ci%2520class%253D%2522fas%2520fa-user-circle%2522%253E%253C%252Fi%253E%2520Item%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25201%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-transparent%2522%2520value%253D%25222%2522%253E%253Ci%2520class%253D%2522fas%2520fa-user-circle%2522%253E%253C%252Fi%253E%2520Item%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25202%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-transparent%2522%2520value%253D%25222%2522%253E%253Ci%2520class%253D%2522fas%2520fa-user-circle%2522%253E%253C%252Fi%253E%2520Item%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25203%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
@@ -136,7 +163,7 @@
             </div>
 
             <span class="horizontal-line2"></span>
-            <!-- alert modal -->
+            <!-- confirmation modal -->
             <div class="component-container">
                 <h5 class="content-subheading">Confirmation Modal</h5>
                 <p>This type of modal not only offer the choices to the user but also provide with buttons to do perform
@@ -160,6 +187,25 @@
                         </div>
                     </div>
                 </div>
+                <div class="modal-container modal-hidden modal-container-confirm">
+                    <div class="modal confirmation-modal">
+                        <h4 class="modal-title">Dialog header</h4>
+                        <span class="hr-line-gray"></span>
+                        <div class="confirmation-modal-items">
+                            <label for="rd1"><input type="radio" id="rd1" name="item" checked>Item 1</label>
+                            <label for="rd2"><input type="radio" id="rd2" name="item">Item 2</label>
+                            <label for="rd3"><input type="radio" id="rd3" name="item">Item 3</label>
+                            <label for="rd4"><input type="radio" id="rd4" name="item">Item 4</label>
+                            <label for="rd5"><input type="radio" id="rd5" name="item">Item 5</label>
+                        </div>
+                        <span class="hr-line-gray"></span>
+                        <div class="btn-group">
+                            <button class="btn btn-outline confirm-modal-btn" value="3">Action 1</button>
+                            <button class="btn btn-outline confirm-modal-btn" value="3">Action 2</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-info confirm-modal-btn">Open Confirm Modal</button>
                 <iframe title="confirmation-modal" class="code-img confirmation-modal-docs"
                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2520confirmation-modal%2522%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522modal-title%2522%253EDialog%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522hr-line-gray%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirmation-modal-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rd1%2522%253E%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522rd1%2522%2520name%253D%2522item%2522%2520checked%253EItem%25201%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rd2%2522%253E%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522rd2%2522%2520name%253D%2522item%2522%253EItem%25202%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rd3%2522%253E%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522rd3%2522%2520name%253D%2522item%2522%253EItem%25203%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rd4%2522%253E%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522rd4%2522%2520name%253D%2522item%2522%253EItem%25204%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522rd5%2522%253E%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522rd5%2522%2520name%253D%2522item%2522%253EItem%25205%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522hr-line-gray%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%2520value%253D%25223%2522%253EAction%25201%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%2520value%253D%25223%2522%253EAction%25202%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
@@ -177,6 +223,7 @@
         <i class="fas fa-chevron-up"></i>
     </a>
     <script src="../js/components.js"></script>
+    <script src="../js/modal.js"></script>
 </body>
 
 </html>

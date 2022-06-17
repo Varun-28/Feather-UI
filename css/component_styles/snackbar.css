@@ -1,5 +1,5 @@
 @import url('./components.css');
-
+@import url('./button.css');
 /* snackbar css */
 
 .snackbar {
@@ -35,3 +35,17 @@
 .snackbar-docs {
     min-height: 15rem;
 }
+
+.snackbar-container-hidden{
+    display: none;
+}
+
+.snackbar-container{
+    position: fixed;
+    bottom: 1rem;
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+

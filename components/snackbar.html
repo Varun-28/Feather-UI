@@ -93,6 +93,13 @@
                         <button class="retry">RETRY</button>
                     </div>
                 </div>
+                <div class="snackbar-container snackbar-container-hidden">
+                    <div class="snackbar">
+                        <p class="snackbar-text">Can't send photo. Retry in 5 seconds.</p>
+                        <button class="retry snackbar-hide-btn">RETRY</button>
+                    </div>
+                </div>
+                <button class="btn btn-info snackbar-show-btn">Show Snackbar</button>
                 <iframe title="snackbar" class="code-img snackbar-docs"
                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522snackbar-text%2522%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522retry%2522%253ERETRY%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
@@ -110,6 +117,7 @@
         <i class="fas fa-chevron-up"></i>
     </a>
     <script src="../js/components.js"></script>
+    <script src="../js/snackbar.js"></script>
 </body>
 
 </html>
