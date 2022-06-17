@@ -1,0 +1,29 @@
+@import url('./components.css');
+
+/* -------- navigation css -------- */
+
+.featherui-navbar{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.featherui-navbar .navbar-brand{
+    margin-right: auto;
+}
+
+.featherui-navbar .nav-links{
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.featherui-navbar .active-link{
+    border-bottom: solid 2px var(--bg-color);
+}
+
+.navigation-docs{
+    min-height: 20rem;
+}

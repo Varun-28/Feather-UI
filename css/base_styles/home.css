@@ -115,3 +115,20 @@
     cursor: pointer;
     transform: scale(1.05);
 }
+
+/* footer */
+.featherUI-footer{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--hover-color);
+    color: var(--primary-color);
+    border-top: solid 1px var(--primary-color);
+}
+
+.featherUI-footer .social-links i{
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin: auto 5px;
+}

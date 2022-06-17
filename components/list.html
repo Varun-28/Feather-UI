@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feather UI</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logo.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/component_styles/list.css">
+
+    <!-- font awesome cdn -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cl-navbar">
+        <nav>
+            <a href="../index.html">
+                <img src="../assets/logo.png" alt="logo">
+                <h2>Feather UI</h2>
+            </a>
+        </nav>
+    </header>
+    <main id="components">
+        <section class="drawer">
+            <ul>
+                <a href="./getStarted.html">
+                    <li>Docs</li>
+                </a>
+                <li class="horizontal-line"><span></span></li>
+                <a href="./avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="./alert.html">
+                    <li>Alert</li>
+                </a>
+                <a href="./badge.html">
+                    <li>Badge</li>
+                </a>
+                <a href="./button.html">
+                    <li>Button</li>
+                </a>
+                <a href="./card.html">
+                    <li>Card</li>
+                </a>
+                <a href="./image.html">
+                    <li>Image</li>
+                </a>
+                <a href="./input.html">
+                    <li>Input</li>
+                </a>
+                <a href="./textUtility.html">
+                    <li>Typography</li>
+                </a>
+                <a href="./modal.html">
+                    <li>Modal</li>
+                </a>
+                <a href="./snackbar.html">
+                    <li>Snackbar</li>
+                </a>
+                <a href="./list.html">
+                    <li class="active">List</li>
+                </a>
+                <a href="./navigation.html">
+                    <li>Navigation</li>
+                </a>
+                <a href="./rating.html">
+                    <li>Rating</li>
+                </a>
+                <a href="./grid.html">
+                    <li>Grid</li>
+                </a>
+                <a href="./slider.html">
+                    <li>Slider</li>
+                </a>
+            </ul>
+        </section>
+        <section class="content">
+            <h4 class="content-heading">List</h4>
+            <p>HTML Lists are used to specify lists of information. All lists may contain one or more list elements.</p>
+
+            <span class="horizontal-line2"></span>
+            <!-- list -->
+            <div class="component-container">
+                <h5 class="content-subheading">Normal Lists (Spaced)</h5>
+                <p>These are the normal list of items either bulleted or numbered.</p>
+                <div class="wrapper">
+                    <div class="list-container">
+                        <div class="list">
+                            <p>An unordered list:</p>
+                            <ul class="unordered-list">
+                                <li class="list-item">Item</li>
+                                <li class="list-item">Item</li>
+                                <li class="list-item">Item</li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <p>An ordered list:</p>
+                            <ol class="ordered-list">
+                                <li class="list-item">First Item</li>
+                                <li class="list-item">Second Item</li>
+                                <li class="list-item">Third Item</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <iframe title="normal-list" class="code-img normal-list-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%253Cp%253EAn%2520unordered%2520list%253A%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522unordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%253Cp%253EAn%2520ordered%2520list%253A%253C%252Fp%253E%250A%2520%2520%2520%2520%253Col%2520class%253D%2522ordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EFirst%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ESecond%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThird%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fol%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line2"></span>
+            <!-- list -->
+            <div class="component-container">
+                <h5 class="content-subheading">Notification Lists (Stacked)</h5>
+                <p>These are the list of notification which we usually see in our inbox.</p>
+                <div class="wrapper">
+                    <div>
+
+                        <div class="stacked-list">
+                            <div class="stacked-list-item">
+                                <i class="fas fa-bell"></i>
+                                <div class="stacked-list-text">
+                                    <h4>Notification 1</h4>
+                                    <p>This is the content of notification 1.</p>
+                                </div>
+                            </div>
+                            <div class="stacked-list-item">
+                                <i class="fas fa-bell"></i>
+                                <div class="stacked-list-text">
+                                    <h4>Notification 2</h4>
+                                    <p>This is the content of notification 2.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <iframe title="stacked-list" class="code-img stacked-list-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522stacked-list%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-list-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ENotification%25201%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520the%2520content%2520of%2520notification%25201.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-list-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ENotification%25202%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520the%2520content%2520of%2520notification%25202.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <span class="horizontal-line"></span>
+            <div class="lower-navigation">
+                <span><a href="./snackbar.html">&lt; Snackbar</a></span>
+                <span><a href="./navigation.html">Navigation &gt;</a></span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

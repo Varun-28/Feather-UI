@@ -32,5 +32,10 @@ A Lightweight Front-end library for easier and faster development of Web Interfa
 8. Typography
 9. Modal
 10. Snackbar
+11. Navigation
+12. Rating
+13. Grid
+14. List
+15. Slider
   
   

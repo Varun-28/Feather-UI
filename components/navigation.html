@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="../assets/logo.png">
 
     <!-- css -->
-    <link rel="stylesheet" href="../css/component_styles/snackbar.css">
+    <link rel="stylesheet" href="../css/component_styles/navigation.css">
 
     <!-- font awesome cdn -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -59,13 +59,13 @@
                     <li>Modal</li>
                 </a>
                 <a href="./snackbar.html">
-                    <li class="active">Snackbar</li>
+                    <li>Snackbar</li>
                 </a>
                 <a href="./list.html">
                     <li>List</li>
                 </a>
                 <a href="./navigation.html">
-                    <li>Navigation</li>
+                    <li class="active">Navigation</li>
                 </a>
                 <a href="./rating.html">
                     <li>Rating</li>
@@ -79,30 +79,35 @@
             </ul>
         </section>
         <section class="content">
-            <h4 class="content-heading">Snackbar</h4>
-            <p>Snackbars provide brief feedback about an operation through a message at the bottom of the screen.
-                Snackbars contain a single line of text directly related to the operation performed.</p>
+            <h4 class="content-heading">Navigation</h4>
+            <p>A navigation bar is a navigation header that is placed at the top of the page. It is basically a list of
+                links to navigate through various pages within the website.</p>
 
-            <!-- snackbar -->
+            <span class="horizontal-line2"></span>
+            <!-- navigation -->
             <div class="component-container">
-                <p>It as used by the help of <span class="code">snackbar</span> class as shown in documentation along
-                    with <span class="code">snackbar-text, retry</span> class for text and button respectively. </p>
                 <div class="wrapper">
-                    <div class="snackbar">
-                        <p class="snackbar-text">Can't send photo. Retry in 5 seconds.</p>
-                        <button class="retry">RETRY</button>
-                    </div>
+                    <nav class="featherui-navbar" aria-label="navbar">
+                        <h2 class="navbar-brand"><a href="#">Brand</a></h2>
+                        <div>
+                            <ul class="nav-links">
+                                <li class="nav-link active-link"><a href="#">Page 1</a></li>
+                                <li class="nav-link"><a href="#">Page 2</a></li>
+                                <li class="nav-link"><a href="#">Page 3</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-                <iframe title="snackbar" class="code-img snackbar-docs"
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522snackbar-text%2522%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522retry%2522%253ERETRY%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                <iframe title="navigation" class="code-img navigation-docs"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C194%2C136%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522featherui-navbar%2522%2520aria-label%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522navbar-brand%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EBrand%253C%252Fa%253E%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2520active-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EPage%25201%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EPage%25202%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EPage%25203%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
 
             <span class="horizontal-line"></span>
             <div class="lower-navigation">
-                <span><a href="./textUtility.html">&lt; Modal</a></span>
-                <span><a href="./list.html">List &gt;</a></span>
+                <span><a href="./list.html">&lt; List</a></span>
+                <span><a href="./rating.html">Rating &gt;</a></span>
             </div>
         </section>
     </main>

@@ -1,0 +1,48 @@
+@import url('./components.css');
+
+/* -------- list css -------- */
+
+.list-container{
+    background-color: var(--bg-color);
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* normal list */
+
+.list .unordered-list, .list .ordered-list{
+    padding-left: 40px; 
+}
+
+.unordered-list .list-item{
+    list-style: initial;
+}
+
+.ordered-list .list-item{
+    list-style: inherit;
+}
+
+/* stacked list */
+.stacked-list{
+    border: solid 1px var(--color-dnd);
+    background-color: var(--bg-color);
+}
+
+.stacked-list-item{
+    padding: 5px;
+    border-bottom: solid 2px var(--text-color);
+    display: flex;
+    align-items: center;
+}
+
+.stacked-list-item .fa-bell{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+/* docs css */
+.normal-list-docs, .stacked-list-docs{
+    min-height: 30rem;
+}
