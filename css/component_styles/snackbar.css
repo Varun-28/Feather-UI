@@ -33,7 +33,11 @@
 }
 
 .snackbar-docs {
-    min-height: 15rem;
+    min-height: 16rem;
+}
+
+.snackbar-docs-js{
+    min-height: 30rem;
 }
 
 .snackbar-container-hidden{

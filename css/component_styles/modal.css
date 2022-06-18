@@ -61,6 +61,12 @@
 .alert-modal-docs,
 .simple-modal-docs,
 .confirmation-modal-docs {
+    min-height: 30rem;
+}
+
+.alert-modal-docs-js,
+.simple-modal-docs-js,
+.confirmation-modal-docs-js {
     min-height: 20rem;
 }
 
